@@ -1,0 +1,17 @@
+{% extends "FormalandCatalogueBundle::layout.html.twig" %}
+{% block title %} FormalandCatalogueBundle:delete {% endblock %}
+{% block body %}
+    je suis la page delete
+    <h3>
+        Voulez vous supprimer la categorie: <strong style="color:red;">
+            {{categorie.nom}}
+        </strong>
+        de votre liste
+    </h3>
+        <form method="POST" action="{{path('delete_catalogue',{'token':categorie.token})}}">
+            <input type="submit" class="btn btn-danger" value="oui"/>
+            <a href="{{path('index_catalogue')}}"class="btn btn-warning">Non </a>
+            {{form_rest(form)}}
+        </form>
+     
+{% endblock %}    

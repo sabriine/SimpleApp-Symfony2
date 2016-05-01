@@ -1,0 +1,12 @@
+formaland_user:
+    resource: "@FormalandUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+formaland_catalogue:
+    resource: "@FormalandCatalogueBundle/Resources/config/routing.yml"
+    prefix:   /Categorie/
+formaland_catalogue_article:
+    resource: "@FormalandCatalogueBundle/Resources/config/routing_article.yml"
+    prefix:   /Article/
+    
+ 

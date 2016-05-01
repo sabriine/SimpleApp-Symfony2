@@ -1,0 +1,8 @@
+<div class="well">
+    <form method="POST" {{form_enctype(form)}}>
+    {{ form_widget(form)}}
+    <input type="submit" class="btn btn-primary"/>
+    <a href="{{path("index_catalogue")}}" class="btn btn-warning"> Annuler </a>
+    
+    </form>
+</div>

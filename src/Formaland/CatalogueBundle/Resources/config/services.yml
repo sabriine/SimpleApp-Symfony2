@@ -1,0 +1,7 @@
+parameters:
+#    formaland_catalogue.example.class: Formaland\CatalogueBundle\Example
+
+services:
+#    formaland_catalogue.example:
+#        class: %formaland_catalogue.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

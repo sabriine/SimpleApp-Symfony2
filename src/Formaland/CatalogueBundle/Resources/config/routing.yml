@@ -1,0 +1,15 @@
+#root(unique)
+index_catalogue : 
+    #entrée(request)
+    path:     /index
+    #sortie(response)
+    defaults: { _controller:FormalandCatalogueBundle:Categorie:index }
+add_catalogue :
+    path:     /add
+    defaults: { _controller:FormalandCatalogueBundle:Categorie:add }
+edit_catalogue :
+    path:     /edit/{token}
+    defaults: { _controller:FormalandCatalogueBundle:Categorie:edit }
+delete_catalogue :
+    path:     /delete/{token}
+    defaults: { _controller:FormalandCatalogueBundle:Categorie:delete }

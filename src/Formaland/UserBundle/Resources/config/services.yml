@@ -1,0 +1,12 @@
+parameters:
+#    formaland_user.example.class: Formaland\UserBundle\Example
+
+services:
+    formaland_userbundle_registration.registration.form.type:
+        class: Formaland\UserBundle\Form\RegistrationFormType
+        arguments: [%fos_user.model.user.class%]
+        tags:
+            -
+                name: form.type
+                alias: formaland_userbundle_registration
+                

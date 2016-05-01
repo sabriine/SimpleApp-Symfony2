@@ -1,0 +1,13 @@
+add_article :
+     path: /add
+     defaults: {_controller:FormalandCatalogueBundle:Article:addArticle }
+index_article :
+    path: /index
+    defaults: { _controller:FormalandCatalogueBundle:Article:indexArticle }
+edit_article :
+    path: /edit/{token}
+    defaults: { _controller:FormalandCatalogueBundle:Article:editArticle }
+delete_article :
+    path:     /delete/{token}
+    defaults: { _controller:FormalandCatalogueBundle:Article:deleteArticle }
+    
