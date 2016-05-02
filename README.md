@@ -9,6 +9,7 @@ Installation
 Ouvrez vos invites de commandes!
 
 1. Vérifier l'installation de PHP en console!
+
 exécuter la commande suivante : php -v
 Si cette commande vous retourne bien la version de PHP(nous aurons besoin ici de la version 5.4 au minimum) et d'autres informations passant à l'étape suivante .
 Sinon ajouter à la variable d'environnement PATH  le répertoire dans lequel se trouve le fichier php.exe ( sans oublier le point-virgule ";" ).
@@ -29,8 +30,6 @@ $ sudo mv composer.phar /usr/local/bin/composer
 téléchargement des vendors: Avec Composer bien évidemment :
 php composer.phar install
 
-
-
 3. Configurer la base des données
 
 4. Placer le dossier du projet sous
@@ -39,4 +38,4 @@ Windows:
 Linux:
  /var/www/Symfony  
 
-5. Vous pouvez dès à présent exécuter l'application,  Rendez-vous sur la page http://localhost/Symfony/web/app_dev.php/
+5. Vous pouvez dès à présent exécuter l'application,  Rendez-vous sur la page http://localhost/SimpleApp-Symfony2/web/app_dev.php/
